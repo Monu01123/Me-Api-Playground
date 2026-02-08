@@ -1,0 +1,96 @@
+{
+  "name": "Your Name",
+  "email": "your.email@example.com",
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "institution": "Your University",
+      "year": "2023-2027",
+      "field": "Computer Science & Engineering"
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Node.js",
+    "React",
+    "Next.js",
+    "Express.js",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "Docker",
+    "Git",
+    "REST APIs",
+    "GraphQL",
+    "LangChain",
+    "RAG",
+    "Prompt Engineering",
+    "Vector Databases",
+    "FAISS",
+    "Pinecone"
+  ],
+  "projects": [
+    {
+      "title": "AI-Powered Chat Assistant",
+      "description": "Built an intelligent chatbot using LangChain and OpenAI GPT-4 with RAG capabilities for context-aware responses. Implemented vector search using FAISS for efficient document retrieval.",
+      "links": {
+        "github": "https://github.com/yourusername/ai-chat-assistant",
+        "live": "https://ai-chat-assistant.vercel.app"
+      },
+      "technologies": ["Python", "LangChain", "OpenAI", "FAISS", "FastAPI", "React"],
+      "year": "2024"
+    },
+    {
+      "title": "E-Learning Platform",
+      "description": "Full-stack MERN application for online course management with user authentication, payment integration using Stripe, and real-time notifications.",
+      "links": {
+        "github": "https://github.com/yourusername/elearning-platform",
+        "live": "https://elearning-platform.vercel.app"
+      },
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Stripe", "JWT"],
+      "year": "2024"
+    },
+    {
+      "title": "Task Management API",
+      "description": "RESTful API with authentication, role-based access control, and real-time updates using WebSockets. Includes comprehensive testing and CI/CD pipeline.",
+      "links": {
+        "github": "https://github.com/yourusername/task-api"
+      },
+      "technologies": ["Node.js", "Express", "PostgreSQL", "JWT", "WebSockets", "Docker"],
+      "year": "2023"
+    },
+    {
+      "title": "Document Q&A System",
+      "description": "RAG-based system for querying documents using embeddings and vector search. Supports PDF, DOCX, and TXT files with semantic search capabilities.",
+      "links": {
+        "github": "https://github.com/yourusername/doc-qa-system"
+      },
+      "technologies": ["Python", "LangChain", "Pinecone", "OpenAI", "Streamlit"],
+      "year": "2024"
+    }
+  ],
+  "work": [
+    {
+      "company": "Tech Startup Inc.",
+      "position": "Backend Developer Intern",
+      "duration": "Jun 2023 - Aug 2023",
+      "description": "Developed REST APIs for user management and integrated third-party payment services. Optimized database queries reducing response time by 40%.",
+      "technologies": ["Node.js", "Express", "MongoDB", "Redis"]
+    },
+    {
+      "company": "AI Solutions Lab",
+      "position": "AI Engineering Intern",
+      "duration": "Jan 2024 - Present",
+      "description": "Building AI agents with tool calling and multi-step reasoning. Implemented RAG pipelines and vector search for production applications.",
+      "technologies": ["Python", "LangChain", "FAISS", "OpenAI", "FastAPI"]
+    }
+  ],
+  "links": {
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "portfolio": "https://yourportfolio.com",
+    "twitter": "https://twitter.com/yourusername"
+  }
+}

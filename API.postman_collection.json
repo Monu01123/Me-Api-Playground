@@ -1,0 +1,154 @@
+{
+  "info": {
+    "name": "Me-API Playground",
+    "description": "Personal portfolio API endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": ["{{base_url}}"],
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "Get Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/profile",
+          "host": ["{{base_url}}"],
+          "path": ["api", "profile"]
+        }
+      }
+    },
+    {
+      "name": "Create Profile",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Your Name\",\n  \"email\": \"your.email@example.com\",\n  \"education\": [\n    {\n      \"degree\": \"Bachelor of Technology\",\n      \"institution\": \"Your University\",\n      \"year\": \"2023-2027\",\n      \"field\": \"Computer Science\"\n    }\n  ],\n  \"skills\": [\"JavaScript\", \"Python\", \"React\", \"Node.js\"],\n  \"projects\": [\n    {\n      \"title\": \"Sample Project\",\n      \"description\": \"Project description\",\n      \"links\": {\n        \"github\": \"https://github.com/user/project\"\n      },\n      \"technologies\": [\"React\", \"Node.js\"],\n      \"year\": \"2024\"\n    }\n  ],\n  \"work\": [],\n  \"links\": {\n    \"github\": \"https://github.com/yourusername\",\n    \"linkedin\": \"https://linkedin.com/in/yourusername\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/profile",
+          "host": ["{{base_url}}"],
+          "path": ["api", "profile"]
+        }
+      }
+    },
+    {
+      "name": "Update Profile",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Updated Name\",\n  \"skills\": [\"JavaScript\", \"Python\", \"React\", \"Node.js\", \"Docker\"]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/profile",
+          "host": ["{{base_url}}"],
+          "path": ["api", "profile"]
+        }
+      }
+    },
+    {
+      "name": "Delete Profile",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/profile",
+          "host": ["{{base_url}}"],
+          "path": ["api", "profile"]
+        }
+      }
+    },
+    {
+      "name": "Get All Projects",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/projects",
+          "host": ["{{base_url}}"],
+          "path": ["api", "projects"]
+        }
+      }
+    },
+    {
+      "name": "Get Projects by Skill",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/projects?skill=python",
+          "host": ["{{base_url}}"],
+          "path": ["api", "projects"],
+          "query": [
+            {
+              "key": "skill",
+              "value": "python"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Top Skills",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/skills/top",
+          "host": ["{{base_url}}"],
+          "path": ["api", "skills", "top"]
+        }
+      }
+    },
+    {
+      "name": "Search Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/search?q=react",
+          "host": ["{{base_url}}"],
+          "path": ["api", "search"],
+          "query": [
+            {
+              "key": "q",
+              "value": "react"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:5000",
+      "type": "string"
+    }
+  ]
+}
