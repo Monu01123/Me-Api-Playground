@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link as RouterLink } from 'react-router-dom';
-import { AppBar, Toolbar, Typography, Button, Container, Box, CssBaseline } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, Box, CssBaseline } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
