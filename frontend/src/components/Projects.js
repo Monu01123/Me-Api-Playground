@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Typography, Box, Card, CardContent, TextField, Chip, Link, CircularProgress, Alert, MenuItem, Select, FormControl, InputLabel } from '@mui/material';
+import { Container, Typography, Box, Card, CardContent, Chip, Link, CircularProgress, Alert, MenuItem, Select, FormControl, InputLabel } from '@mui/material';
 import { GitHub, Language } from '@mui/icons-material';
 import { getProjects, getProfile } from '../services/api';
 
