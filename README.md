@@ -6,7 +6,7 @@ A personal portfolio API with a minimal frontend to showcase profile, projects, 
 - Frontend: [To be deployed]
 - Backend API: [To be deployed]
 
-**Resume:** [Add your resume link here]
+**Resume:** [View Resume](https://drive.google.com/file/d/1mQbvGffV30EF6JzpalLaCQsF9YJDz9BD/view?usp=sharing)
 
 ## 📋 Table of Contents
 
